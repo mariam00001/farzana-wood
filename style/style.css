@@ -359,6 +359,9 @@ color: var(--black-color);
     width: 80%;
     
 }
+.margin-start{
+    margin-left: 240px;
+}
 .service-content h3{
 font-weight: 500;
 font-style: Medium;
