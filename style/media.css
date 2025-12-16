@@ -332,6 +332,10 @@
         padding: 30px 20px;
         margin-bottom: 20px;
     }
+    .margin-start{
+        margin-left: 0px !important;
+
+    }
     
     .wood-solutions-section {
         padding: 40px 0;
@@ -393,4 +397,8 @@
     .margin-bootom{
         margin-bottom: 150px;
     }
+}
+@media (max-width: 576px){
+
+
 }
