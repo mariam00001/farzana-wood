@@ -397,8 +397,28 @@
     .margin-bootom{
         margin-bottom: 150px;
     }
+    h1{
+        font-size: 20px !important;
+    }
+    .bg-we{
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+text-align: center;
+padding: 34px 63px;
+border-radius: 8px;
+color: var(--white-color);
+background-color: var(--black-color);
+width: 100%;
+margin: 80px auto;
 }
-@media (max-width: 576px){
+}
+@media (max-width: 360px){
 
-
+.why-matters-content{
+    padding-top: 200px !important;
+}
+.mobile-faq{
+    padding-top: 500px;
+}
 }
