@@ -1,0 +1,396 @@
+ /* Responsive Design */
+@media (max-width: 992px) {
+    .container-1{
+        width: 100%;
+    }
+    .service-title {
+        font-size: 32px;
+    }
+    
+    .service-subtitle {
+        font-size: 18px;
+    }
+    
+    .service-image {
+        height: 400px;
+        margin-top: 30px;
+    }
+    
+    .service-block {
+        padding: 40px 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .service-title {
+        font-size: 28px;
+    }
+    
+    .service-description {
+        font-size: 16px;
+    }
+    
+    .service-image {
+        height: 300px;
+    }
+    
+    .image-number {
+        width: 60px;
+        height: 60px;
+        font-size: 32px;
+        top: -20px;
+        left: -20px;
+    }
+    
+    .image-number-right {
+        right: -20px;
+        top: -20px;
+    }
+    
+    .service-block {
+        padding: 30px 20px;
+    }
+}
+
+ /* Responsive Design for About and Products */
+ @media (max-width: 1300px) {
+    .navbar-collapse {
+        border: 1px solid var(--main-color);
+        border-radius: 20px;
+        margin: 0px 0px;
+        padding: 0px 0px;
+        
+        }
+    }
+@media (max-width: 992px) {
+    .about-title {
+        font-size: 36px;
+    }
+    
+    .about-images {
+        min-height: 400px;
+        margin-top: 40px;
+    }
+    
+    .products-title {
+        font-size: 32px;
+    }
+    
+    .testimonials-title {
+        font-size: 32px;
+    }
+    
+    .testimonial-box {
+        margin-top: 40px;
+        min-height: 350px;
+    }
+    
+    .truck-graphic {
+        width: 200px;
+        bottom: -30px;
+        left: -30px;
+    }
+    .product-row{
+        top: -20%;
+        left: 45%;
+        position: relative;
+    
+    }
+
+    
+}
+
+@media (max-width: 768px) {
+    .hero-section{
+        background-image: url("../assets/Rectangle\ 1.svg");
+        height: 200vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        border-radius: 20px;
+    }
+    .about-images {
+        background-color: transparent;
+    }
+    .margin-hero{
+        margin-top: 50px;
+        /* padding-left: 180px; */
+    }
+    .margin{
+        margin-top: 50px;
+    }
+    .about-title {
+        font-size: 28px;
+    }
+    
+    .about-description {
+        font-size: 16px;
+    }
+    
+    .about-images {
+        min-height: 300px;
+    }
+    
+    .about-image-top,
+    .about-image-bottom {
+        width: 100%;
+    }
+    
+    .products-title {
+        font-size: 24px;
+    }
+    
+    .product-tab {
+        font-size: 14px;
+        padding: 10px 16px;
+    }
+    
+    .testimonials-title {
+        font-size: 24px;
+    }
+    
+    .testimonial-box {
+        margin-top: 40px;
+        padding: 30px 20px;
+        min-height: 300px;
+    }
+    
+    .testimonial-text {
+        font-size: 16px;
+    }
+   
+    .truck-graphic{
+        position: relative;
+        display: none;
+    }
+ 
+}
+@media (max-width: 1400px ) and (min-width: 992px) {
+    .wood-main-image{
+        width: 50%;
+    }
+}
+/* Responsive Design for Footer */
+@media (max-width: 992px) {
+    .footer-section {
+        padding: 60px 0 30px 0;
+    }
+    
+    .contact-form-section {
+        margin-top: 30px;
+    }
+    
+    .footer-bottom {
+        margin-top: 40px;
+        text-align: center;
+    }
+    
+    .footer-logo {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    
+    .copyright {
+        text-align: center;
+    }
+    .footer-content {
+        position: relative;
+        z-index: 2;
+        padding: 20px;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    .box-bg , .box-bg-2{
+        display: none;
+    }
+    .wood-main-image{
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .wood-hero-section {
+        display: block;
+    }
+    .wood-hero-title{
+        margin-top: 300px;
+    }
+    .wood-h2{
+        margin-top: 600px;
+    }
+    .why-matters-large-image{
+        margin-top: 20px;
+    }
+    .why-matters-content{
+        margin-top: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-section {
+        padding: 40px 0 20px 0;
+    }
+    
+    .form-title {
+        font-size: 20px;
+    }
+    
+    .address-title {
+        font-size: 18px;
+    }
+    
+    .contact-box {
+        padding: 15px;
+        font-size: 14px;
+    }
+    
+    .map-container iframe {
+        height: 250px;
+    }
+    .wood-main-image{
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .wood-hero-section {
+        display: block;
+    }
+    .wood-hero-title{
+        margin-top: 300px;
+    }
+    .wood-h2{
+        margin-top: 350px;
+    }
+    .why-matters-text {
+        width: 100%;
+        text-align: start;
+    }
+    .why-matters-title {
+        text-align: left;
+        ;
+        }
+        .why-matters-title::after{
+            display: none;
+            
+          }
+          .why-matters-large-image img {
+            width: 100%;
+        }
+        .hook{
+            right: 0;
+            z-index: 3;
+            top: 80%;
+        }
+        
+        
+}
+/* Responsive Design for New Sections */
+@media (max-width: 992px) {
+    .key-benefits-title {
+        font-size: 32px;
+    }
+    
+    .wood-solutions-title {
+        font-size: 32px;
+    }
+    
+    .crane-hook-image {
+        width: 150px;
+        margin-top: 30px;
+    }
+    
+    .category-number {
+        width: 60px;
+        height: 60px;
+        font-size: 36px;
+        top: -15px;
+        left: -15px;
+    }
+    
+    .category-title {
+        font-size: 24px;
+    }
+    .hook-3{
+        right:0;
+    }
+}
+
+@media (max-width: 768px) {
+    .key-benefits-section {
+        padding: 40px 0;
+    }
+    
+    .key-benefits-title {
+        font-size: 28px;
+    }
+    
+    .benefit-card {
+        padding: 30px 20px;
+        margin-bottom: 20px;
+    }
+    
+    .wood-solutions-section {
+        padding: 40px 0;
+    }
+    
+    .wood-solutions-title {
+        font-size: 28px;
+    }
+    
+    .wood-solutions-text {
+        font-size: 16px;
+    }
+    
+    .crane-hook-image {
+        width: 120px;
+    }
+    
+    .wood-categories-section {
+        padding: 40px 0;
+    }
+    
+    .category-content {
+        padding: 20px;
+    }
+    
+    .category-image-wrapper {
+        height: 250px;
+    }
+    
+    .category-image-wrapper.category-double .category-image {
+        height: 200px;
+    }
+    
+    .category-title {
+        font-size: 20px;
+    }
+    
+    .category-description {
+        font-size: 14px;
+    }
+    .hook img{
+        width: 60% !important;
+    }
+    .position-test{
+        left: 0%;
+        margin: 0px 0px;
+        position: relative !important;
+    }
+    .margin-case{
+        margin-bottom: 100px !important;
+    }
+    .hook-3{
+        z-index: 3;
+        overflow: hidden;
+        top: 15rem;
+        width: 100%;
+        right: 0;
+    }
+    .margin-bootom{
+        margin-bottom: 150px;
+    }
+}
